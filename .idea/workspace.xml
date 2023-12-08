@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a76d531c-f31d-485b-bd92-fc09a187187f" name="Changes" comment="Liam and Eric. Finished gameplay class and added comments. Here we worked as a pair to follow the directions to create the core code for the game. We started with defining the variables, creating the physical game interface by drawing everything but the bricks and then calling in the class that creates the array for the bricks. Create a gameover/win scenario to allow for a restart of the game when all the bricks are cleared or the ball leaves the bottom of the screen. We then created the logic that allows for the game to work, like what happens when a ball hits the brick and how it affects the total bricks and overall scores. We were able to make sure that the ball stays on the grid by reversing the direction. Next we used the key events to move the paddle from user input and the rate at which it moves or when the enter key is hit to allow for restart. Overall this part of the code proved to be challenging based on the syntax that we were unfamilair with but logically it was very similar to what we had done in the past, which allowed for us to understand what we were doing even if we did not know exactly how to implement it." />
+    <list default="true" id="a76d531c-f31d-485b-bd92-fc09a187187f" name="Changes" comment="Liam and Eric. Finished gameplay class and added comments. Here we worked as a pair to follow the directions to create the core code for the game. We started with defining the variables, creating the physical game interface by drawing everything but the bricks and then calling in the class that creates the array for the bricks. Create a gameover/win scenario to allow for a restart of the game when all the bricks are cleared or the ball leaves the bottom of the screen. We then created the logic that allows for the game to work, like what happens when a ball hits the brick and how it affects the total bricks and overall scores. We were able to make sure that the ball stays on the grid by reversing the direction. Next we used the key events to move the paddle from user input and the rate at which it moves or when the enter key is hit to allow for restart. Overall this part of the code proved to be challenging based on the syntax that we were unfamilair with but logically it was very similar to what we had done in the past, which allowed for us to understand what we were doing even if we did not know exactly how to implement it.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/brickBreaker/Gameplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/brickBreaker/Gameplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/brickBreaker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/brickBreaker/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/brickBreaker/MapGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/brickBreaker/MapGenerator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -103,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702069598141</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Liam and Eric. Finished gameplay class and added comments. Here we worked as a pair to follow the directions to create the core code for the game. We started with defining the variables, creating the physical game interface by drawing everything but the bricks and then calling in the class that creates the array for the bricks. Create a gameover/win scenario to allow for a restart of the game when all the bricks are cleared or the ball leaves the bottom of the screen. We then created the logic that allows for the game to work, like what happens when a ball hits the brick and how it affects the total bricks and overall scores. We were able to make sure that the ball stays on the grid by reversing the direction. Next we used the key events to move the paddle from user input and the rate at which it moves or when the enter key is hit to allow for restart. Overall this part of the code proved to be challenging based on the syntax that we were unfamilair with but logically it was very similar to what we had done in the past, which allowed for us to understand what we were doing even if we did not know exactly how to implement it.">
+      <option name="closed" value="true" />
+      <created>1702069863433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702069863433</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

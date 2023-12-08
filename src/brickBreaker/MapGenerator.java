@@ -17,10 +17,11 @@ public class MapGenerator { //Creates a 2d array to represent game map
        brickHeight = 150/row; //Calculates height of each brick based on total height of map
     }
     public void draw(Graphics2D g){ //Method draws the bricks on the screen
+        Color gold = new Color(157, 131, 5); // RGB values for gold color
         for(int i=0;i< map.length;i++) {
             for (int j = 0; j < map[0].length; j++) {
                 if(map[i][j]>0){ //Draws the brick if it is present
-                    g.setColor(Color.white); //Set brick color to white
+                    g.setColor(gold); //Set brick color to white
                     g.fillRect(j*brickWidth+80, i*brickHeight+50,brickWidth,brickHeight); //Fills the rectangle representing the brick
                     g.setStroke(new BasicStroke(3)); //Sets stroke width for brick border
                     g.setColor(Color.black); //Sets brick border color to black

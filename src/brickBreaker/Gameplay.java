@@ -41,7 +41,7 @@ public void paint (Graphics g){
     map.draw((Graphics2D)g);
 
     // Draw borders
-g.setColor(Color.yellow);
+g.setColor(Color.black);
 g.fillRect(0,0,3,592);
 g.fillRect(0,0,692,3);
 g.fillRect(691,0,3,592);
@@ -52,11 +52,12 @@ g.fillRect(691,0,3,592);
     g.drawString("" +score, 590,30);
 
 // The paddle
-    g.setColor(Color.green);
+    Color gold = new Color(187, 156, 0); // RGB values for gold color
+    g.setColor(gold);
     g.fillRect(playerX, 550,100,8);
 
     // The ball
-    g.setColor(Color.yellow);
+    g.setColor(Color.white);
     g.fillOval(ballposX,ballposY,20,20);
 
     // Check conditions for game over or win and display appropriate messages
