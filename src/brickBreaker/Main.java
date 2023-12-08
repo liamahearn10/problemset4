@@ -1,7 +1,9 @@
 package brickBreaker;
 import javax.swing.*;
+
 public class Main {
   public static void main(String[] args) {
+    SwingUtilities.invokeLater(() -> {
     JFrame obj = new JFrame();
     Gameplay gamePlay = new Gameplay();
     obj.setBounds(10, 10, 700, 600);
@@ -10,5 +12,6 @@ public class Main {
     obj.setVisible(true);
     obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     obj.add(gamePlay);
+  });
   }
 }

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a76d531c-f31d-485b-bd92-fc09a187187f" name="Changes" comment="Liam - set up main class">
-      <change afterPath="$PROJECT_DIR$/src/brickBreaker/Gameplay.java" afterDir="false" />
+    <list default="true" id="a76d531c-f31d-485b-bd92-fc09a187187f" name="Changes" comment="Liam and Eric, committing first part to be able to pull in mapgen to allow for error checking">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/brickBreaker/Gameplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/brickBreaker/Gameplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/brickBreaker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/brickBreaker/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +83,28 @@
       <option name="project" value="LOCAL" />
       <updated>1701960041684</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Liam and Eric, committing first part to be able to pull in mapgen to allow for error checking">
+      <option name="closed" value="true" />
+      <created>1702062069389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702062069390</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Liam and Eric, committing first part to be able to pull in mapgen to allow for error checking">
+      <option name="closed" value="true" />
+      <created>1702062168560</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702062168560</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Liam - set up main class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Liam - set up main class" />
+    <MESSAGE value="Liam and Eric, committing first part to be able to pull in mapgen to allow for error checking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Liam and Eric, committing first part to be able to pull in mapgen to allow for error checking" />
   </component>
 </project>
