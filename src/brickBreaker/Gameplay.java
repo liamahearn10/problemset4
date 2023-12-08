@@ -201,6 +201,7 @@ g.dispose(); //// Dispose of the graphics context to start a new
     public void moveLeft(){
         play = true; // Set the game to active state
         playerX-=25; //Decrement the paddle's position to the left
+
     }
 
 

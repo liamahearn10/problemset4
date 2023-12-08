@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a76d531c-f31d-485b-bd92-fc09a187187f" name="Changes" comment="Liam and Eric, committing first part to be able to pull in mapgen to allow for error checking">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/brickBreaker/Gameplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/brickBreaker/Gameplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/brickBreaker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/brickBreaker/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="a76d531c-f31d-485b-bd92-fc09a187187f" name="Changes" comment="Liam and Eric. Finished gameplay class and added comments. Here we worked as a pair to follow the directions to create the core code for the game. We started with defining the variables, creating the physical game interface by drawing everything but the bricks and then calling in the class that creates the array for the bricks. Create a gameover/win scenario to allow for a restart of the game when all the bricks are cleared or the ball leaves the bottom of the screen. We then created the logic that allows for the game to work, like what happens when a ball hits the brick and how it affects the total bricks and overall scores. We were able to make sure that the ball stays on the grid by reversing the direction. Next we used the key events to move the paddle from user input and the rate at which it moves or when the enter key is hit to allow for restart. Overall this part of the code proved to be challenging based on the syntax that we were unfamilair with but logically it was very similar to what we had done in the past, which allowed for us to understand what we were doing even if we did not know exactly how to implement it." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,12 +95,22 @@
       <option name="project" value="LOCAL" />
       <updated>1702062168560</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Liam and Eric. Finished gameplay class and added comments. Here we worked as a pair to follow the directions to create the core code for the game. We started with defining the variables, creating the physical game interface by drawing everything but the bricks and then calling in the class that creates the array for the bricks. Create a gameover/win scenario to allow for a restart of the game when all the bricks are cleared or the ball leaves the bottom of the screen. We then created the logic that allows for the game to work, like what happens when a ball hits the brick and how it affects the total bricks and overall scores. We were able to make sure that the ball stays on the grid by reversing the direction. Next we used the key events to move the paddle from user input and the rate at which it moves or when the enter key is hit to allow for restart. Overall this part of the code proved to be challenging based on the syntax that we were unfamilair with but logically it was very similar to what we had done in the past, which allowed for us to understand what we were doing even if we did not know exactly how to implement it.">
+      <option name="closed" value="true" />
+      <created>1702069598139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702069598141</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Liam - set up main class" />
     <MESSAGE value="Liam and Eric, committing first part to be able to pull in mapgen to allow for error checking" />
-    <option name="LAST_COMMIT_MESSAGE" value="Liam and Eric, committing first part to be able to pull in mapgen to allow for error checking" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;src/brickBreaker/Main.java" />
+    <MESSAGE value="Liam and Eric. Finished gameplay class and added comments. Here we worked as a pair to follow the directions to create the core code for the game. We started with defining the variables, creating the physical game interface by drawing everything but the bricks and then calling in the class that creates the array for the bricks. Create a gameover/win scenario to allow for a restart of the game when all the bricks are cleared or the ball leaves the bottom of the screen. We then created the logic that allows for the game to work, like what happens when a ball hits the brick and how it affects the total bricks and overall scores. We were able to make sure that the ball stays on the grid by reversing the direction. Next we used the key events to move the paddle from user input and the rate at which it moves or when the enter key is hit to allow for restart. Overall this part of the code proved to be challenging based on the syntax that we were unfamilair with but logically it was very similar to what we had done in the past, which allowed for us to understand what we were doing even if we did not know exactly how to implement it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Liam and Eric. Finished gameplay class and added comments. Here we worked as a pair to follow the directions to create the core code for the game. We started with defining the variables, creating the physical game interface by drawing everything but the bricks and then calling in the class that creates the array for the bricks. Create a gameover/win scenario to allow for a restart of the game when all the bricks are cleared or the ball leaves the bottom of the screen. We then created the logic that allows for the game to work, like what happens when a ball hits the brick and how it affects the total bricks and overall scores. We were able to make sure that the ball stays on the grid by reversing the direction. Next we used the key events to move the paddle from user input and the rate at which it moves or when the enter key is hit to allow for restart. Overall this part of the code proved to be challenging based on the syntax that we were unfamilair with but logically it was very similar to what we had done in the past, which allowed for us to understand what we were doing even if we did not know exactly how to implement it." />
   </component>
 </project>
