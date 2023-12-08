@@ -1,3 +1,10 @@
+/**********************************************************************
+ * @file Gameplay.java
+ * @mainteam had trouble following some of the directions that the video gave and keeping the nested loop brackets
+ * @author Liam and Eric
+ * @date: 12/8
+ * @editors: Robert, Noah
+ ***********************************************************************/
 package brickBreaker;
 
 import javax.swing.*;

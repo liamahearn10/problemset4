@@ -1,3 +1,10 @@
+/**********************************************************************
+ * @file MapGenerator.java
+ * @brief had trouble making the size of the bricks correlate correctly to the size of the frame and have them all in the corect spot
+ * @mainteam Robert and Noah
+ * @date: 12/8
+ * @editors: Liam and Eric
+ ***********************************************************************/
 package brickBreaker;
 
 import java.awt.*;
